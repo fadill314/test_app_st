@@ -6,3 +6,11 @@ st.video("https://youtu.be/YfZ0zk5Zzcw")
 
 st.sidebar.image("https://seeklogo.com/images/E/ecole-hassania-des-travaux-publics-ehtp-logo-3D5770F217-seeklogo.com.png")
 st.sidebar.header("Master Cloud Computing")
+
+st.checkbox('Yes')
+st.button('Click Me')
+st.radio('Pick your gender', ['Male', 'Female'])
+st.selectbox('Pick a fruit', ['Apple', 'Banana', 'Orange'])
+st.multiselect('Choose a planet', ['Jupiter', 'Mars', 'Neptune'])
+st.select_slider('Pick a mark', ['Bad', 'Good', 'Excellent'])
+st.slider('Pick a number', 0, 50)
